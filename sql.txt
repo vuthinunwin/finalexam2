@@ -1,0 +1,15 @@
+CREATE TABLE comment (
+    CID int NOT NULL AUTO_INCREMENT,
+    NID varchar(255) NOT NULL,
+    context varchar(255),
+    PRIMARY KEY (CID)
+)
+
+CREATE TABLE news (
+    ID int NOT NULL AUTO_INCREMENT,
+    Topic varchar(255) NOT NULL,
+    Body varchar(255),
+    Picture varchar(255),
+Comment int(11)
+    PRIMARY KEY (ID)
+)
